@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+main {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  transition: all ease 300ms;
+}
+.amarelo{
+  background-color: yellow;
+}
+#switch {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 15px;
+}
+.switch-off {
+  opacity: .5;
+}
+.check {
+  position: relative;
+  left: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-align: center;
+  height: 30px;
+  background-color: white;
+  transition: all ease 300ms;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+.desliza {
+  left: 0px;
+  background-color: white;
+}
